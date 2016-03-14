@@ -1,6 +1,4 @@
-//**JK3466
-//**HOMEWORK3
-//** Data Structures Homework 3
+
 //** AVLTree - This class is derived from Weiss Code. Contains various methods to conduct on an AVL Tree. 
 
 import java.util.LinkedList;
