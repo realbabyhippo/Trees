@@ -17,8 +17,8 @@ and you can run these files by typing in: < java CLASSNAME >
 Note that to correctly run Problem2.java you must type in <java Problem2 filename.txt> Furthermore, the filename.txt file must be in the same directory as the Problem2.java class file. 
 
 
-fs28 MYSTACK.java 
-fs24 
+MyStack.java
+
 This generic class file constructs a stack made from a LinkedList. 
 It includes:
 	1) a push method to add items to a stack
@@ -30,7 +30,7 @@ Because this is a generic class, MyStack can be implemented on any type of objec
 It is used in the FindPalindromes class with Characters and it is used in the Program2 class with Strings. 
 
 
-EXPRESSIONTREE.java
+ExpressionTree.java
 
 This class contains many parts:
 	1)   A nested class called ExpressionNodes that constructs a TreeNode
@@ -71,13 +71,12 @@ This class contains many parts:
 		- follows the paradigm of a inorder traversal
 
 
-fs28 PROBLEM1.java
-fs24 
+ExpressionTreeTester.java
+
 This tests the aforementioned methods in ExpressionTree. Creates an Expression Tree from an instantiated expression. 
 Then it prints out the results of the four methods: tree evaluation, postfix expression, prefix expression, infix expression. 
 
-
-fs28 AVLTREE.java 
+AvlTree.java 
 fs24 
 This class is primarily derived from the Weiss Code. However, some changes were implemented in order to gear the tree more towards our use. The class has various public methods that call upon private methods. The methods that were really modified include:
 
@@ -92,7 +91,7 @@ Now, if the tree is empty, it prints an Error and exits the program. Because thi
 a UnderFlowException class in my homework directory, because it'92s not needed. 
 
 	
-PROGRAM2.java
+AVLTreeTester.java
 This class creates a textFile from an inputFile that is read in by the Scanner object. It throws a cry/catch exception in case a file cannot be correctly read in. This tester class reads in the lines of a textfile, gets rid of punctuation, and makes all letters lower case. It creates an array of strings that are separated by whitespace, so each string is a word. It uses a for-loop and the insert method from the AvlTree class to insert words into the tree. It returns the final tree, which includes the words and a LinkList of the lines that contain these words. 
 
 
