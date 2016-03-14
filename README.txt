@@ -5,8 +5,8 @@ In this submission there are 4 classes files and 3 text files.
 The 4 class files are: 
 	1) MyStack.java
 	2) ExpressionTree.java
-	3) Problem1.java
-	4) Problem2.java
+	3) ExpressionTreeTester.java
+	4) AVLTreeTester.java
 	5) AvlTree.java
 	
 
