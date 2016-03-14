@@ -1,15 +1,12 @@
 
-//**JK3466
-//**JULIETTE KANG
-//** Data Structures Homework 3
-//**Problem2.java - This class reads through a file and then indexes the words and created an AVL tree and 
+//**AVLTreeTester.java - This class reads through a file and then indexes the words and created an AVL tree and 
 		// keeps track of every line the word has occurred on 
 
 import java.io.FileNotFoundException;
 import java.io.File;
 import java.util.*;
 
-public class Problem2{
+public class AVLTreeTester{
 
 	public static void main(String[] args) throws FileNotFoundException 
 	{
