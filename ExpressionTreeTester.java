@@ -1,9 +1,7 @@
-// JK3466
-//HOMEWORK3
-// Problem1.java - This class test class instantiates a post-fix expression, 
+// ExpressionTreeTester.java - This class test class instantiates a post-fix expression, 
 	// and demonstrates the methods in ExpressionTree.java
 
-public class Problem1 
+public class ExpressionTreeTester 
 {
 
 	public static void main(String[] args) 
