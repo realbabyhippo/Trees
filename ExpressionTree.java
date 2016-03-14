@@ -1,6 +1,4 @@
-//**JK3466				
-//**HOMEWORK3			
-//** Data Structures Homework 3
+
 //**ExpressionTree.java - This class will construct a Node, ExpressionTree and includes 4 methods to invoke on an Expression Tree
 
 public class ExpressionTree
