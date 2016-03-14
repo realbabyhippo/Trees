@@ -1,6 +1,4 @@
-//JULIETTE KANG
-//JK3466
-//Data Structures Homework 3
+
 //MyStack.java - a generic stack class derived from a Linkedlist 
 
 public class MyStack<E>
